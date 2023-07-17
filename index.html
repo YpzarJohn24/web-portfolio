@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Font Awesome CDN Links -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav id="main-nav" class="navbar navbar-expand-lg navbar navbar-light shadow-sm py-2">
+      <div class="container">
+        <a href="#home" class="navbar-brand"><span class="highlight">@</span>YJSandoval.</a>
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon align-self-center"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0 w-100 justify-content-end">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navbar Section -->
+
+    <!-- Home Section -->
+  <main id="main" class="main-container">
+    <section id="home" class="home-section">
+      <div class="container py-5">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-12 col-lg-6 order-1 order-lg-2 col-md-6 mt-5 mt-md-0 order-2 order-md-1">
+            <div class="home-img text-center">
+              <img src="./images/profile-img.png" alt="profile" class="profile-img img-fluid rounded-circle shadow-lg">
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6 order-2 order-lg-1 col-md-8 pt-5 mt-md-5 order-1 order-md-2 d-flex flex-column justify-content-center">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ypzarjohn.sandoval" target="_blank"
+                  ><i
+                    class="social-icons-top fa-brands fa-facebook border border-dark rounded-circle p-2"
+                  ></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/akosigotchiee/" target="_blank"
+                  ><i
+                    class="social-icons-top fa-brands fa-instagram border border-dark rounded-circle p-2"
+                  ></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://twitter.com/ypzar_john" target="_blank"
+                  ><i
+                    class="social-icons-top fa-brands fa-twitter border border-dark rounded-circle p-2"
+                  ></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/YpzarJohn24" target="_blank"
+                  ><i
+                    class="social-icons-top fa-brands fa-github border border-dark rounded-circle p-2"
+                  ></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/ypzar-john-sandoval-a04001269/" target="_blank"
+                  ><i
+                    class="social-icons-top fa-brands fa-linkedin border border-dark rounded-circle p-2"
+                  ></i>
+                </a>
+              </li>
+            </ul>
+
+            <h1>Hello, I'm Ypzar John</h1>
+            <h2 class="highlight animated-text" data-text="Full Stack Web Developer">Full Stack Web Developer</h2>
+
+            <div class="d-flex my-2">
+              <a href="#contact" class="btn-left btn btn-outline-dark mr-3 p-2">Let's Talk</a>
+              <a href="https://drive.google.com/file/d/153DJvoUQ02Byrkl9nSG1jyvdctZgR-uE/view?usp=sharing" target="_blank" class="download-btn btn btn-dark p-2">Download CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Home Section -->
+    
+    <!-- About Section -->
+    <section id="about" class="about-section bg-white">
+      <div class="container py-5">
+        <div class="row mx-auto p-4">
+          <div class="d-lg-flex align-items-center justify-content-center">
+            <div class="col-12 col-lg-6 mr-5">
+              <img
+              src="./images/about-img.jpg"
+              alt="computer programmer"
+              class="about-img img-fluid shadow p-3 mt-5 bg-white" data-aos="fade-right"
+            />
+            </div>
+
+            <div class="col-12 col-lg-6 d-flex flex-column justify-content-center mt-3">
+              <div class="section-title text-center" data-aos="fade-up">
+                <h2 class="about-title text-center mt-3"><span class="highlight-section-title">About</span> Me</h2>
+                <div class="block"></div>
+              </div>
+                <p class="lead text-justify" data-aos="fade-left">
+                  I'm a passionate full stack developer looking for opportunities to
+                  apply my skills and contribute to meaningful projects. Although, I
+                  don't have professional experience, I have dedicated myself to
+                  self-learning and build strong foundation in Full Stack Web
+                  Development. I am confident in my ability to learn quickly, adapt
+                  to new technologies, and produce high quality code. With a keen
+                  attention to detail and a focus on user experience, I am commited
+                  to delivering exceptional results. I am excited to be a part of a
+                  team where I can grow as a developer and make a positive impact.
+                </p>    
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of About Section -->
+
+    <!-- Services Section -->
+
+    <section id="services" class="services-section bg-light py-5">
+      <div class="container text-center p-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="section-title text-center" data-aos="fade-up">
+                <h2 class="services-title">My <span class="highlight-section-title">Services</span></h2>
+                <div class="block"></div>
+                <p class="lead mb-5">
+                  I offer a range of service to meet your needs
+                </p>
+              </div>
+            </div>
+        </div>
+      
+  
+          <!-- HTML Card -->
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6 col-lg-3 p-4" data-aos="fade-right">
+            <div class="card text-center p-3 shadow-sm rounded bg-white services-cards">
+              <i class="fa-solid fa-code card-icon my-3"></i>
+              <img src="./images/logo-html5.png" alt="HTML logo image" class="card-img-top" />
+              <div class="card-body ">
+                <h5 class="card-title">HTML</h5>
+                <p class="card-text text-muted">
+                  Using HTML, I build the foundation of your web pages, ensuring proper structure, semantics, and accessibility.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End of HTML Card -->
+
+          <!-- CSS Card -->
+          <div class="col-12 col-md-6 col-lg-3 p-4" data-aos="fade-left">
+            <div class="card text-center p-3 shadow-sm rounded bg-white services-cards">
+              <i class="fa-brands fa-css3 card-icon my-3"></i>
+              <img src="./images/logo-css3.png" alt="CSS logo image" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">CSS</h5>
+                <p class="card-text text-muted">
+                 I utilize CSS to customize the look and feel of your web pages, implementing stunning layouts, typography, colors, and animations.
+                </p>
+              </div>
+            </div>
+          </div>
+           <!-- End of CSS Card -->
+
+           <!-- Git Card  -->
+          <div class="col-12 col-md-6 col-lg-3 p-4" data-aos="fade-right">
+            <div class="card text-center p-3 shadow-sm rounded bg-white services-cards">
+              <i class="fa-solid fa-code-branch card-icon my-3"></i>
+              <img src="./images/logo-git.png" alt="Git logo image" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">Git</h5>
+                <p class="card-text text-muted">
+                  I excels in utilizing Git to optimize the development process. I can help you set up Git repositories, create branches, and manage code versions with ease. 
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End of Git Card -->
+
+          <!-- Bootstrap Card -->
+          <div class="col-12 col-md-6 col-lg-3 p-4" data-aos="fade-left"> 
+            <div class="card text-center p-3 shadow-sm rounded bg-white services-cards">
+              <i class="fa-brands fa-bootstrap card-icon my-3"></i>
+              <img src="./images/logo-bootstrap.png" alt="Bootstrap logo image" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">Bootstrap</h5>
+                <p class="card-text text-muted">
+                  I harness the power of Bootstrap, a popular CSS framework, to accelerate the development process and streamline responsive design.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End of Bootstrap Card -->
+        </div>
+      </div>
+    </section>
+    <!-- End of Services Section -->
+
+    <!-- Projects Section -->
+
+    <section id="projects" class="project-section bg-white text-center p-4">
+      <div class="container">
+        <h3 class="projects-title pt-5" data-aos="fade-up"><span class="highlight-section-title">Latest</span> Projects</h3>
+        <div class="block" data-aos="fade-up-right"></div>
+        <p class="text-muted text-center project-description" data-aos="fade-up-right"><i class="fa-solid fa-file-code project-icon"></i> Sample Project: Implementing Coding Practices.</p>
+        <p class="text-muted text-center project-description" data-aos="fade-up-left">This sample project serves as a practical demonstration of implementing coding practices into a software project.</p>
+
+        <p class="hover-img-text text-muted" data-aos="fade-up-left"><i class="fa-solid fa-asterisk mr-2 highlight-icon"></i>Hover over the <span class="text-highlight">image</span> to see my works !</p>
+        <div class="row">
+          <!-- Project 1 -->
+          <div class="col-md-6 col-lg-4 p-3" data-aos="fade-up-right">
+            <div class="project-item">   
+              <div class="project-image"> 
+                <img src="./project-images/Photo Grid Project.png" alt="Project image work" class="img-fluid shadow p-3 mb-3 bg-white rounded">
+                <div class="image-overlay">
+                  <div class="overlay-content">
+                    <h3 class="text-animation">Photo Grid Project</h3>
+                    <a href="https://github.com/YpzarJohn24/Sample-Project-Works/tree/master/Sample%20Projects/Grid%20Sample%20Project" class="overlay-link" target="_blank">See Project on Github</a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of Project 1 -->
+
+          <!-- Project 2 -->
+          <div class="col-md-6 col-lg-4 p-3" data-aos="fade-up">
+            <div class="project-item">   
+              <div class="project-image"> 
+                <img src="./project-images/Profile Card Design.png" alt="Project image work" class="img-fluid shadow p-3 mb-3 bg-white rounded">
+                <div class="image-overlay">
+                  
+                  <div class="overlay-content">
+                    <h3 class="text-animation">Profile Card Design</h3>
+                    <a href="https://github.com/YpzarJohn24/Sample-Project-Works/tree/master/Sample%20Projects/Profile%20Card%20Design" class="overlay-link" target="_blank">See Project on Github</a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of Project 2 -->
+
+          <!-- Project 3 -->
+          <div class="col-md-6 col-lg-4 p-3" data-aos="fade-up-left">
+            <div class="project-item">   
+              <div class="project-image"> 
+                <img src="./project-images/Ceramic Grid Photo.png" alt="Project image work" class="img-fluid shadow p-3 mb-3 bg-white rounded">
+                <div class="image-overlay">
+                  
+                  <div class="overlay-content">
+                    <h3 class="text-animation">Ceramic Grid Photo</h3>
+                    <a href="https://github.com/YpzarJohn24/Sample-Project-Works/tree/master/Sample%20Projects/Ceramic%20Photo%20Project" class="overlay-link" target="_blank">See Project on Github</a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of Project 3 -->
+
+          <!-- Project 4 -->
+          <div class="col-md-6 col-lg-4 p-3" data-aos="fade-up-right">
+            <div class="project-item">   
+              <div class="project-image"> 
+                <img src="./project-images/Animated Image Gallery.png" alt="Project image work" class="img-fluid shadow p-3 mb-3 bg-white rounded">
+                <div class="image-overlay">
+                  
+                  <div class="overlay-content">
+                    <h3 class="text-animation">Animated Image Gallery</h3>
+                    <a href="https://github.com/YpzarJohn24/Sample-Project-Works/tree/master/Sample%20Projects/Animated%20Image%20Gallery" class="overlay-link" target="_blank">See Project on Github</a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of Project 4 -->
+
+          <!-- Project 5 -->
+          <div class="col-md-6 col-lg-4 p-3" data-aos="fade-up">
+            <div class="project-item">   
+              <div class="project-image"> 
+                <img src="./project-images/Transparent Login Form.png" alt="Project image work" class="img-fluid shadow p-3 mb-3 bg-white rounded">
+                <div class="image-overlay">
+                  
+                  <div class="overlay-content">
+                    <h3 class="text-animation">Transparent Login Form</h3>
+                    <a href="https://github.com/YpzarJohn24/Sample-Project-Works/tree/master/Sample%20Projects/Transparent%20Login%20Form" class="overlay-link" target="_blank">See Project on Github</a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of Project 5 -->
+
+          <!-- Project 6 -->
+          <div class="col-md-6 col-lg-4 p-3" data-aos="fade-up-left">
+            <div class="project-item">   
+              <div class="project-image"> 
+                <img src="./project-images/CV Project Sample.png" alt="Project image work" class="img-fluid shadow p-3 mb-3 bg-white rounded">
+                <div class="image-overlay">
+                  
+                  <div class="overlay-content">
+                    <h3 class="text-animation">CV Project Sample</h3>
+                    <a href="https://github.com/YpzarJohn24/Sample-Project-Works/tree/master/Sample%20Projects/CV%20Project%20Sample" class="overlay-link" target="_blank">See Project on Github</a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of Project 6 -->
+
+          <!-- Project 7 -->
+          <div class="col-md-6 col-lg-4 p-3" data-aos="fade-up-right">
+            <div class="project-item">   
+              <div class="project-image"> 
+                <img src="./project-images/Typography Blog Post.png" alt="Project image work" class="img-fluid shadow p-3 mb-3 bg-white rounded">
+                <div class="image-overlay">
+                  
+                  <div class="overlay-content">
+                    <h3 class="text-animation">Typography Blog Post</h3>
+                    <a href="https://github.com/YpzarJohn24/Sample-Project-Works/tree/master/Sample%20Projects/Typography%20Blog%20Post" class="overlay-link" target="_blank">See Project on Github</a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of Project 7 -->
+
+          <!-- Project 8 -->
+          <div class="col-md-6 col-lg-4 p-3" data-aos="fade-up">
+            <div class="project-item">   
+              <div class="project-image"> 
+                <img src="./project-images/Pricing Table Design.png" alt="Project image work" class="img-fluid shadow p-3 mb-3 bg-white rounded">
+                <div class="image-overlay">
+                  
+                  <div class="overlay-content">
+                    <h3 class="text-animation">Pricing Table Design</h3>
+                    <a href="https://github.com/YpzarJohn24/Sample-Project-Works/tree/master/Sample%20Projects/Pricing%20Table%20UI%20Design" class="overlay-link" target="_blank">See Project on Github</a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of Project 8 -->
+
+          <!-- Project 9 -->
+          <div class="col-md-6 col-lg-4 p-3" data-aos="fade-up-left">
+            <div class="project-item">   
+              <div class="project-image"> 
+                <img src="./project-images/Responsive Testimonial Cards Sample.png" alt="Project image work" class="img-fluid shadow p-3 mb-3 bg-white rounded">
+                <div class="image-overlay">
+                  
+                  <div class="overlay-content">
+                    <h3 class="text-animation">Responsive Testimonial Cards Sample</h3>
+                    <a href="https://github.com/YpzarJohn24/Sample-Project-Works/tree/master/Sample%20Projects/Responsive%20Testimonial%20Card" class="overlay-link" target="_blank">See Project on Github</a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of Project 9 -->
+         
+          <!-- Add more project items here -->
+        </div>
+      </div>
+    </section>
+    
+    <!-- End of Projects Section -->
+
+    <!-- Contact Description -->
+
+    <div id="contact-description" class="contact-description container-fluid bg-light py-4">
+      <div class="row d-flex my-4">
+        <div class="col-lg-6 col-md-8 col-sm-10 mx-auto" data-aos="fade-right">
+          <h3 class="text-center">Got a <span class="highlight">Project</span> ! Let's Talk</h3>
+          <p class="text-muted text-center">If you need a modern and powerful website for your business, startup or yourself, I am available for work.</p>
+        </div>
+      </div>
+    </div>
+    <!-- End of Contact Description -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section d-flex align-items-center py-5">
+      <div class="container  box-container" data-aos="zoom-in">
+        <h2 class="contact-title text-center pt-4" data-aos="fade-up">Contact <span class="highlight-section-title">Me</span></h2>
+        <div class="block" data-aos="fade-up-right"></div>
+       
+        <div class="row form" data-aos="zoom-in">
+          <div class="col-md-6 mx-auto">
+            <form action="">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+              <div class="form-group my-2 pb-2">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  rows="4"
+                  class="form-control"
+                  placeholder="Enter your message"
+                ></textarea>
+              </div>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModal">
+                Send Email
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+       <!-- Modal Section -->
+
+      <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="contactModalLabel">Thank you for contacting us!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Message Successfully Sent!</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+    </section>
+  
+    <!-- End of Modal Section -->
+    <!-- End of Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer-section text-white p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4" data-aos="fade-right">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#home" class="text-light">Home</a></li>
+              <li><a href="#about" class="text-light">About</a></li>
+              <li><a href="#services" class="text-light">Services</a></li>
+              <li><a href="#projects"class="text-light">Projects</a></li>
+              <li><a href="#contact" class="text-light">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4" data-aos="fade-down">
+            <h5>Contact Information</h5>
+            <p><i class="fa-solid fa-phone social-icon-footer"></i> Phone: <a href="+63956-285-0963" class="text-light">+63956-285-0963</a></p>
+            <p><i class="fa-solid fa-envelope social-icon-footer"></i> Email: <a href="mailto:ypzarjohn24@gmail.com" class="text-light">ypzarjohn24@gmail.com</a></p>
+            <p><i class="fa-solid fa-location-dot social-icon-footer"></i> Location: Laguna, Philippines</a></p>
+          </div>
+          <div class="col-md-4" data-aos="fade-left">
+            <h5>Follow Me</h5>
+            <ul class="list-inline social-icons">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ypzarjohn.sandoval" target="_blank"
+                >
+                  <i class="fab fa-facebook text-light"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/akosigotchiee/" target="_blank"
+                >
+                  <i class="fab fa-instagram text-light"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://twitter.com/ypzar_john" target="_blank"
+                >
+                  <i class="fab fa-twitter text-light"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/ypzar-john-sandoval-a04001269/" target="_blank"
+                >
+                  <i class="fab fa-linkedin text-light"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <div class="text-center">
+          <p>&copy; 2023 <span class="highlight-footer">@</span>YJSandoval. <span class="highlight-footer">|</span> All right reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+    <!-- End of Footer Section -->
+  
+    <!-- Boostrap JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init(
+      {
+        duration: 2500
+      }
+    );
+  </script>
+  </body>
+</html>
